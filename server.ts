@@ -21,6 +21,6 @@ app.use(express.json());
 app.use("/api/users", userRoute);
 app.use("/api/auth", authRoute);
 app.use("/api/posts", postsRoute);
-app.listen(PORT, () => console.log("starting server"));
+app.listen(PORT, () :void => console.log("starting server"));
 
 
